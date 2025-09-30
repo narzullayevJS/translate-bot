@@ -5,5 +5,5 @@ services:
     plan: free
     startCommand: node index.js
     envVars:
-      - key: 8291112984:AAG6JkEg-bCJ8MKD-fV9f47sU1MsiAqB5Ak
+      - key: BOT_TOKEN
         sync: false
