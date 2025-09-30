@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: translate-bot
+    env: node
+    plan: free
+    startCommand: node index.js
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
