@@ -11,6 +11,7 @@ if (!token) {
 }
 
 const bot = new TelegramBot(token, { polling: true });
+const port = process.env.PORT || 4000
 
 // /start komandasi
 bot.onText(/\/start/, (msg) => {
