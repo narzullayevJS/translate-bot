@@ -1,6 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 import translate from "@iamtraction/google-translate";
-import keep_alive from "./keep_alive"
+import keep_alive from "./keep_alive.js"
 import dotenv from "dotenv";
 
 dotenv.config();
